@@ -18,7 +18,7 @@ spring:
         #消费者最大数量
         max-concurrency: 10
         #限制消费者每次只处理一条消息，处理完再继续下一条消息
-        prefetch: 1
+#        prefetch: 1
         #启动时是否默认启动容器，默认true
         auto-startup: true
         #被拒绝时重新进入队列
